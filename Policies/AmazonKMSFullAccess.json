@@ -5,16 +5,7 @@
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
-                "kms:DescribeCustomKeyStores",
-                "kms:ListKeys",
-                "kms:DeleteCustomKeyStore",
-                "kms:GenerateRandom",
-                "kms:UpdateCustomKeyStore",
-                "kms:ListAliases",
-                "kms:DisconnectCustomKeyStore",
-                "kms:CreateKey",
-                "kms:ConnectCustomKeyStore",
-                "kms:CreateCustomKeyStore"
+                "kms:*"
             ],
             "Resource": "*"
         },
